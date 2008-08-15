@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<_name>Hide Plates</_name>
+	<id>org.inkscape.icon_workflow.plates_hide</id>
+	<dependency type="executable" location="extensions">icon_workflow-plates_visibility.py</dependency>
+	<dependency type="executable" location="extensions">inkex.py</dependency>
+	<dependency type="executable" location="extensions">simplestyle.py</dependency>
+	<param name="show" gui-hidden="true" type="boolean">false</param>
+	<effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Icon Workflow"/>
+		</effects-menu>
+	</effect>
+	<script>
+		<command reldir="extensions" interpreter="python">icon_workflow-plates_visibility.py</command>
+	</script>
+</inkscape-extension>

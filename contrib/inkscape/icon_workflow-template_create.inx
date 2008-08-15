@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<_name>Create Template</_name>
+	<id>org.inkscape.icon_workflow.template_create</id>
+	<dependency type="executable" location="extensions">icon_workflow-template_create.py</dependency>
+	<dependency type="executable" location="extensions">inkex.py</dependency>
+	<param name="columns" type="int" min="1" max="1000" _gui-text="Columns">1</param>
+	<param name="icons" type="int" min="1" max="1000" _gui-text="Icons">1</param>
+	<param name="offset" type="int" min="0" max="2000" _gui-text="Offset">0</param>
+	<effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Icon Workflow"/>
+		</effects-menu>
+	</effect>
+	<script>
+		<command reldir="extensions" interpreter="python">icon_workflow-template_create.py</command>
+	</script>
+</inkscape-extension>
