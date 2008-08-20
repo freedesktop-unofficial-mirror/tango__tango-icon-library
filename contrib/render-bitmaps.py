@@ -21,7 +21,7 @@ def render(file):
     print "\t%s" % (file)
     svg = xml.dom.minidom.parse(SRC + "/" + file)
     for icon in svg.getElementsByTagName("g"):
-        if icon.getAttribute("inkscape:label") != "plate":
+        if icon.getAttribute("inkscape:label").find("plate") == -1:
             continue
         for in_node in icon.getElementsByTagName("text"):
             if in_node.getAttribute("inkscape:label") == "icon-name":
