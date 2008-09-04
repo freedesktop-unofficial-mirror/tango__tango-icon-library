@@ -14,7 +14,7 @@ def renderit(file)
     puts "#{file}:#{icon.attributes['inkscape:label']}  #{context}/#{icon_name}"
     icon.each_element("rect") do |box|
       dir = "#{box.attributes['width']}x#{box.attributes['height']}/#{context}"
-      cmd = "#{INKSCAPE} -i #{box.attributes['id']} -e #{dir}/#{file.gsub(/\.svg$/,'.png')} #{SRC}/#{file} > /dev/null 2>&1"
+      cmd = "#{INKSCAPE} -i #{box.attributes['id']} -e #{dir}/#{icon_name.gsub(/$/,'.png')} #{SRC}/#{file} > /dev/null 2>&1"
       File.makedirs(dir) unless File.exists?(dir)
       system(cmd)
       print "."
