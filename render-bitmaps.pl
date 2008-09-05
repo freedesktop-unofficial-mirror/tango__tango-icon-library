@@ -12,7 +12,7 @@ use Getopt::Long;
 
 my $inkscape = "inkscape";
 my $sizeonly;
-my $outdir;
+my $outdir = "";
 my $dirall;
 
 ############################################################################
@@ -56,7 +56,7 @@ sub render_icons {
 		foreach my $box (@{$plate->{rect}}) {
 		    if (defined $box->{'inkscape:label'}) {
 			my $size = $box->{'inkscape:label'};
-			my $dir = "$size/$context";
+			my $dir = "$outdir/$size/$context";
 
                         next if (defined $sizeonly && $size ne $sizeonly);
 
