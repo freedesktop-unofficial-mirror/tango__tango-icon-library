@@ -64,6 +64,7 @@ sub render_icons {
 			    system ("mkdir -p $dir");
 			}
 			my $cmd = "$inkscape -i $box->{id} -e $dir/$name.png $filename > /dev/null";
+                        print "Rendering $dir/$name.png...\n";
 			system ($cmd);
 		    }
 		}
@@ -94,7 +95,7 @@ if (defined $ARGV[0]) {
 
     foreach my $file (@filelist) {
         next if ($file eq "." || $file eq "..");
-        render_icons ("$dirall/$file");
+        render_icons ("$dirall/$file") if ($file =~ m/^(.*).svg[z]?$/);
     }
 } else {
     usage ();
