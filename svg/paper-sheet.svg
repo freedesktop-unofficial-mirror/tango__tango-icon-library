@@ -28,16 +28,16 @@
      objecttolerance="10000"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="230.3128"
-     inkscape:cy="144.04191"
+     inkscape:zoom="1"
+     inkscape:cx="121.8929"
+     inkscape:cy="254.11587"
      inkscape:document-units="px"
-     inkscape:current-layer="g0-paper-sheet-orig"
+     inkscape:current-layer="g1-paper-sheet-orig"
      showgrid="false"
      inkscape:window-width="1436"
      inkscape:window-height="937"
-     inkscape:window-x="73"
-     inkscape:window-y="107"
+     inkscape:window-x="145"
+     inkscape:window-y="111"
      borderlayer="true"
      inkscape:showpageshadow="false"
      inkscape:snap-nodes="false"
@@ -267,38 +267,6 @@
          stdDeviation="0.41832669"
          inkscape:collect="always" />
     </filter>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3-paper-sheet-orig"
-       id="radialGradient7-paper-sheet-orig"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.94095,0,0,0.730906,375.508,168.164)"
-       cx="-30.314398"
-       cy="34.277431"
-       fx="-30.314398"
-       fy="34.277431"
-       r="18.000002" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient10-paper-sheet-orig"
-       id="linearGradient18-paper-sheet-orig"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.485754,0,0,0.488975,331.488,175.793)"
-       x1="-43.860779"
-       y1="61.854836"
-       x2="-54.529251"
-       y2="-0.087501168" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4-paper-sheet-orig"
-       id="radialGradient8-paper-sheet-orig"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.46139,0,0,1.40943,-5.84554,-5.46996)"
-       cx="4"
-       cy="5.2999997"
-       fx="4"
-       fy="5.2999997"
-       r="17" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient20-paper-sheet-orig"
@@ -980,12 +948,12 @@
     <g
        id="g1-paper-sheet-orig"
        inkscape:groupmode="layer"
-       style="display:none"
+       style="display:inline"
        inkscape:label="plate 0">
       <rect
          id="rect1-paper-sheet-orig"
          x="20"
-         y="30"
+         y="32"
          inkscape:label="256x256"
          height="256"
          width="256"
@@ -1052,7 +1020,8 @@
       </text>
     </g>
     <g
-       id="g2627">
+       id="g2627"
+       transform="translate(0,1)">
       <g
          id="g3917"
          style="display:inline">
@@ -1105,7 +1074,7 @@
     </g>
     <g
        id="g10-paper-sheet-orig"
-       transform="translate(-36,-2)">
+       transform="translate(-36,-1)">
       <path
          style="fill:url(#radialGradient15-paper-sheet-orig);fill-opacity:1;stroke:none;display:inline"
          d="M 363.5,54 C 362.11111,54 363.4579,54.497088 364.84375,55.125 C 366.22957,55.752912 369.81663,58.340052 369,62 C 373.32331,61.569417 375.67913,65.122378 376,66.28125 C 376.32087,67.440122 377,68.888889 377,67.5 C 377.0283,63.694419 374.15457,61.068299 372.15625,58.84375 C 370.15793,56.619201 367.15379,54.476761 363.5,54 z"
@@ -1207,7 +1176,8 @@
        id="path18-paper-sheet-orig"
        style="opacity:0.64423104;fill:url(#radialGradient18-paper-sheet-orig) #000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
     <g
-       id="g2612">
+       id="g2612"
+       transform="translate(0,4)">
       <rect
          style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter0-paper-sheet-orig)"
          id="rect0-paper-sheet-orig"
@@ -1287,7 +1257,8 @@
       </g>
     </g>
     <g
-       id="g2636">
+       id="g2636"
+       transform="translate(0,1)">
       <g
          transform="translate(-50,0)"
          id="g3119">
@@ -1345,7 +1316,7 @@
     </g>
     <g
        id="g28-paper-sheet-orig"
-       transform="translate(-13,-2)">
+       transform="translate(-13,-1)">
       <path
          style="fill:url(#radialGradient6-paper-sheet-orig);fill-opacity:1;stroke:none;display:inline"
          d="M 331.29536,129 C 330.39983,129 331.26826,129.32079 332.16178,129.72599 C 333.05533,130.1312 334.52654,131.63814 334,134 C 338.56932,133.29289 339.1482,136.17757 339.35509,136.92542 C 339.56198,137.67327 339.99987,138.6082 339.99987,137.71192 C 340.01817,135.25607 338.1652,133.56136 336.87672,132.1258 C 335.58825,130.69024 333.65124,129.30767 331.29536,129 z"
@@ -1358,7 +1329,8 @@
          sodipodi:nodetypes="ccccc" />
     </g>
     <g
-       id="g2600">
+       id="g2600"
+       transform="translate(0,4)">
       <g
          transform="matrix(0.9892535,0,0,1.0231706,21.376126,24.590117)"
          id="g20-paper-sheet-orig">
