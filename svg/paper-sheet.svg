@@ -31,10 +31,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="-23.1071"
-     inkscape:cy="254.11587"
+     inkscape:cx="313.90285"
+     inkscape:cy="220.11796"
      inkscape:document-units="px"
-     inkscape:current-layer="svg0-paper-sheet-orig"
+     inkscape:current-layer="g0-paper-sheet-orig"
      showgrid="false"
      inkscape:window-width="1436"
      inkscape:window-height="937"
@@ -915,6 +915,35 @@
        fx="4"
        fy="5.2999997"
        r="17" />
+    <inkscape:perspective
+       id="perspective8304"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20-paper-sheet-orig-4"
+       id="linearGradient19-paper-sheet-orig-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(343,207)"
+       x1="-23.4375"
+       y1="-24.875"
+       x2="-26.453966"
+       y2="-24.144068" />
+    <linearGradient
+       id="linearGradient20-paper-sheet-orig-4"
+       inkscape:collect="always">
+      <stop
+         id="stop28-paper-sheet-orig-7"
+         offset="0"
+         style="stop-color: rgb(0, 0, 0); stop-opacity: 1;" />
+      <stop
+         id="stop29-paper-sheet-orig-7"
+         offset="1"
+         style="stop-color: rgb(0, 0, 0); stop-opacity: 0;" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata0-paper-sheet-orig">
@@ -1097,7 +1126,7 @@
     </g>
     <g
        id="g12-paper-sheet-orig"
-       transform="translate(-1,0)">
+       transform="translate(-2,0)">
       <rect
          ry="1"
          rx="1"
@@ -1128,20 +1157,21 @@
            d="m 307.46875,178.5 c -0.53341,0 -0.96875,0.43533 -0.96875,0.96875 l 0,16.0625 c 0,0.53341 0.43533,0.96875 0.96875,0.96875 l 13.0625,0 c 0.53341,0 0.96875,-0.43534 0.96875,-0.96875 0,-3.69792 0,-6.42068 0,-10.09375 0,-3.9375 -4.5,-6.9375 -8.46875,-6.9375 l -5.5625,0 z"
            style="fill:none;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;display:inline" />
       </g>
-    </g>
-    <g
-       id="g14-paper-sheet-orig"
-       transform="translate(-1,0)">
-      <path
-         sodipodi:nodetypes="ccccc"
-         id="path10-paper-sheet-orig"
-         d="m 313,179 c 3.35588,0.55242 3.73483,0.76516 3.73483,5.26516 3.5,0 4.09071,0.67421 5.26517,1.73484 0,-0.51002 0,0.0616 0,-0.5 -0.49895,-5.60501 -4.64984,-6.19121 -9,-6.5 z"
-         style="opacity:0.48987899;fill:url(#linearGradient19-paper-sheet-orig);fill-opacity:1;stroke:none;display:inline" />
-      <path
-         sodipodi:nodetypes="cccssc"
-         id="path11-paper-sheet-orig"
-         d="m 313,178 c 3.35588,0.55242 5,0.5 5,5 3.5,0 2.14054,1.34838 4,4 0,-0.51002 0,-0.93837 0,-1.5 0,-2.24796 -1.15018,-4.08414 -2.875,-5.40625 C 317.40018,178.77164 315.10449,178 313,178 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <g
+         style="display:inline"
+         id="g14-paper-sheet-orig"
+         transform="translate(0.00130089,0.06878162)">
+        <path
+           sodipodi:nodetypes="ccccc"
+           id="path10-paper-sheet-orig"
+           d="m 313,179 c 3.35588,0.55242 3.73483,0.76516 3.73483,5.26516 3.5,0 4.09071,0.67421 5.26517,1.73484 0,-0.51002 0,0.0616 0,-0.5 -0.49895,-5.60501 -4.64984,-6.19121 -9,-6.5 z"
+           style="opacity:0.48987899;fill:url(#linearGradient19-paper-sheet-orig-8);fill-opacity:1;stroke:none;display:inline" />
+        <path
+           sodipodi:nodetypes="cccssc"
+           id="path11-paper-sheet-orig"
+           d="m 313,178 c 3.2233,1.08275 4.98928,1.91735 5.03347,5.00314 2.26256,0 3.16773,2.05235 3.96653,3.99686 0,-0.51002 0,-0.93837 0,-1.5 0,-2.24796 -1.15018,-4.08414 -2.875,-5.40625 C 317.40018,178.77164 315.10449,178 313,178 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      </g>
     </g>
     <g
        id="g15-paper-sheet-orig"
