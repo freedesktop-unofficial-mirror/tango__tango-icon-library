@@ -69,7 +69,7 @@ class MyEffect(inkex.Effect):
             top = height * row
             left = width * column
             icon_layer = self.add_layer('icon %s' % icon)
-            plate = self.add_layer('plate %s' % icon, icon_layer)
+            plate = self.add_layer('baseplate %s' % icon, icon_layer)
             self.add_square(256, left + 20, top + 30, plate)
             self.add_square(48, left + 300, top + 50, plate)
             self.add_square(32, left + 300, top + 125, plate)

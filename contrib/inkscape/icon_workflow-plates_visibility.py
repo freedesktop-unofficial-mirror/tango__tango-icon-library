@@ -26,7 +26,7 @@ class MyEffect(inkex.Effect):
                         dest="show", default=False,
                         help="show or hide the plate layers")
     def effect(self):
-        plates_path = '//svg:g[@inkscape:groupmode="layer" and contains(@inkscape:label,"plate")]'
+        plates_path = '//svg:g[@inkscape:groupmode="layer" and contains(@inkscape:label,"baseplate")]'
         plates = self.document.getroot().xpath(plates_path, namespaces=inkex.NSS)
         for layer in plates:
             style = simplestyle.parseStyle(layer.get('style'))
